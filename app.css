@@ -1,0 +1,647 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.dropdown-menu a {
+  color: #1b52a2;
+}
+
+.dropdown-menu a:hover {
+  color: #f79321;
+}
+
+.nav-link {
+  color: #898989;
+  margin-right: 1rem;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+  color: #1b52a2;
+}
+
+.navbar-toggler img {
+  width: 30px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.partner {
+  border: 2px solid #f79321;
+  padding: 0.5rem 1.4rem;
+  color: #f79321;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.partner:hover {
+  background-color: #f79321;
+  color: white;
+}
+
+/* Hero */
+
+.hero-container {
+  min-height: 600px;
+}
+
+.image .hero-image {
+  width: 1200px;
+}
+
+.lead {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #1b52a2;
+  line-height: 4.6rem;
+}
+
+.orange {
+  color: #f79321;
+}
+
+.hero-banner {
+  padding-right: 0.6rem;
+}
+
+.hero-banner p {
+  margin-top: 1rem;
+  color: #898989;
+}
+
+.download-buttons img {
+  width: 150px;
+  margin-right: 1rem;
+  margin-top: 0.8rem;
+}
+
+/* Features */
+
+.features-container {
+  margin-top: 4rem;
+  background-color: #ebfaff;
+  padding-bottom: 6rem;
+}
+
+.features-container img {
+  width: 230px;
+  margin-right: 2rem;
+}
+
+.features-container h3 {
+  font-size: 1.5rem;
+}
+
+.zero-interest {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 5rem 0 0;
+  margin-top: 6rem;
+}
+
+.zero-interest-text {
+  color: #1b52a2;
+}
+
+.zero-interest h3 {
+  font-weight: 600;
+}
+
+.zero-interest-text ul {
+  list-style: none;
+  line-height: 2;
+  padding: 0;
+}
+
+.zero-interest-text img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.apply {
+  padding: 0.4rem 1.9rem;
+  border: 0;
+  background-color: #f79321;
+  color: white;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+}
+
+.apply:hover {
+  background-color: #d97b10;
+}
+
+/* BSP BENNER */
+
+.main-image {
+  position: relative;
+  background: url(/ASSETS/bsp-banner-newest.jpg) no-repeat center;
+  background-size: cover;
+  height: 250px;
+  margin-bottom: 4rem;
+  padding: 4rem;
+}
+
+.bsp-content {
+  color: white;
+  text-align: center;
+}
+
+.bsp-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f79321;
+}
+
+.bsp-content span {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* MERCHANT HIGHLIGHTS */
+
+.merchant-container {
+  margin-bottom: 8rem;
+}
+
+.merchant-container h3 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #1b52a2;
+  margin-bottom: 6rem;
+}
+
+.merchant-container img {
+  width: 450px;
+}
+
+.merch-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merch-right img {
+  width: 300px;
+  margin-bottom: 3rem;
+}
+
+.merch-right p {
+  font-size: 19px;
+  color: #898989;
+  margin-bottom: 3rem;
+  line-height: 2rem;
+}
+
+.partner-stores-btn {
+  border: 0;
+  padding: 1rem 2rem;
+  background-color: #f79321;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+.partner-stores-btn:hover {
+  background-color: #d97b10;
+}
+
+/* ABOUT CASHALO */
+
+.about-container {
+  background-color: #ebfaff;
+  padding: 6rem 0;
+}
+
+.about-container h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #1b52a2;
+  margin-bottom: 2rem;
+}
+
+.about-container p {
+  font-size: 19px;
+  color: #898989;
+  margin-bottom: 3rem;
+  line-height: 2rem;
+}
+
+.about-right img {
+  width: 500px;
+}
+
+.about-container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1b52a2;
+  padding: 6rem 0 4rem 0;
+  color: white;
+}
+
+.footer-left {
+  margin-bottom: 3rem;
+}
+
+.footer ul {
+  padding: 0;
+  margin-bottom: 3rem;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all 0.5s ease;
+}
+
+.footer ul li a:hover {
+  color: #f79321;
+}
+
+.footer h3 {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.footer-links img {
+  width: 30px;
+  margin-right: 2rem;
+}
+
+.paloo {
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+
+.paloo a {
+  color: white;
+  text-decoration: none;
+}
+
+.paloo a:hover {
+  color: #f79321;
+  transition: ease-in 0.2s;
+}
+
+.paloo img {
+  width: 350px;
+}
+
+/* CASHALOAN */
+.banner-container img {
+  width: 100%;
+  margin-bottom: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* VIDEO */
+.video-container {
+  margin-bottom: 4rem;
+}
+
+.video-container video {
+  width: 700px;
+}
+
+.video-right img {
+  width: 400px;
+}
+
+.video-right h3 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #1b52a2;
+  margin-bottom: 2rem;
+}
+
+.video-right p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #1b52a2;
+}
+
+.video-right img {
+  margin-bottom: 3rem;
+}
+
+.video-right .grey {
+  color: #898989;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.video-right-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-left video {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* HOW TO APPLY */
+
+.how-to-apply {
+  background-color: #ebfaff;
+  padding: 4rem 0;
+}
+
+.apply-left img {
+  width: 350px;
+}
+
+.apply-left {
+  display: flex;
+  justify-content: center;
+}
+
+.apply-right h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1b52a2;
+}
+
+.apply-right ol li {
+  font-size: 18px;
+  color: #898989;
+  line-height: 1.7;
+}
+
+.apply-right ol {
+  padding: 1rem;
+}
+
+.minimum {
+  color: #898989;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1400px) {
+  .main-image {
+    height: 320px;
+  }
+}
+
+@media (max-width: 992px) {
+  .features-container {
+    padding-bottom: 3rem;
+  }
+
+  .hero-container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .hero-contents {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .bsp-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .bsp-content span {
+    font-size: 1.2rem;
+  }
+
+  .main-image {
+    height: 300px;
+    padding: 3rem;
+  }
+
+  .merchant-container img {
+    width: 400px;
+    margin-bottom: 5rem;
+  }
+
+  .merchant-container h3 {
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+  }
+
+  .merch-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .merch-right p {
+    font-size: 17px;
+  }
+
+  .merch-right img {
+    margin-bottom: 2rem;
+  }
+
+  .about-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .about-left p {
+    font-size: 17px;
+  }
+
+  .about-right img {
+    width: 400px;
+    margin-bottom: 2rem;
+  }
+
+  .video-right img {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .zero-interest {
+    padding: 0 2rem;
+    margin-top: 3rem;
+  }
+
+  .bsp-content span {
+    font-size: 0.9rem;
+  }
+
+  .main-image {
+    padding: 2rem;
+    height: 250px;
+  }
+
+  .features-container {
+    padding-bottom: 2rem;
+  }
+
+  .merchant-container {
+    margin-bottom: 5rem;
+  }
+
+  .footer .row {
+    padding: 0 2rem;
+  }
+
+  .banner-container img {
+    margin-bottom: 4rem;
+  }
+
+  .zero-interest {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .zero-interest img {
+    margin-bottom: 2rem;
+  }
+
+  .zero-interest-text img {
+    margin-bottom: 0rem;
+  }
+
+  .apply-left img {
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.7rem;
+    line-height: 1;
+  }
+
+  .hero-banner {
+    text-align: center;
+  }
+
+  .download-buttons img {
+    width: 150px;
+  }
+
+  .bsp-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-container {
+    padding: 3rem 0;
+  }
+
+  .main-image {
+    height: 320px;
+  }
+
+  .merchant-container img {
+    width: 300px;
+  }
+
+  .merch-right img {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .paloo {
+    margin-top: 3rem;
+  }
+
+  .video-right h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .video-right p {
+    font-size: 1rem;
+    margin-bottom: 0rem;
+  }
+
+  .video-right-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .video-right img {
+    width: 200px;
+  }
+
+  .video-right .grey {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .how-to-apply .row {
+    padding: 0 1rem;
+  }
+
+  .apply-left img {
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .partner-stores-btn {
+    padding: 1rem 2rem;
+    background-color: #f79321;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+  }
+}
