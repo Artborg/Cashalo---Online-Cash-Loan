@@ -1,1 +1,1 @@
-# Cashalo---Online-Cash-Loan
+# Cashalo-Online-Cash-Loan
